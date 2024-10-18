@@ -1,3 +1,3 @@
-FROM openjdk:23-jdk
+FROM openjdk:23
 COPY target/HolaMundo-0.0.1-SNAPSHOT.jar app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
